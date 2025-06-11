@@ -32,6 +32,7 @@ window.onload = () => {
 
             data.results.forEach(peli => {
                 const div = document.createElement('div');
+                div.className = 'pelicula-card'
                 div.innerHTML = `
                     <h3>${peli.title}</h3>
                     <p>${peli.overview}</p>
